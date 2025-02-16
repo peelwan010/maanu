@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Apology</title>
+  
+  <!-- Link to Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  <!-- Link to External Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Hello puchduuu ❤️</h1>
+    <p>Yeh mei pehele bhejne wala tha par you know whateveeee. Please play the game and unlock a special surprise! You can only move to next level if ALL the questions are correct. Ek bhi galat hua toh shuru se shuru, and the best part is, you won't know kaunsa galat haiii, hehehehehe. BEST OF LUCK BABUUUUU</p>
+
+    <!-- MCQ Section -->
+    <div id="mcq-section">
+      <h2>Answer these questions:</h2>
+      <div id="questions"></div>
+      <button id="check-mcq" onclick="checkMCQs()">Submit Answers</button>
+    </div>
+
+    <!-- Display Score -->
+    <div id="score-display"></div>
+
+    <!-- Questionnaire Section -->
+    <div id="questionnaire-section" style="display: none;">
+      <h2>Now, answer these questions for me:</h2>
+      <form id="questionnaire-form">
+        <div id="open-ended-questions"></div>
+        <button type="button" onclick="submitAnswers()">Submit</button>
+      </form>
+    </div>
+
+    <!-- Video Section -->
+    <div id="video-section" style="display: none;">
+      <h2>Congratulations! 🎉</h2>
+      <p>You’ve unlocked a special message from me.</p>
+      <video controls>
+        <source src="your-video-file.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
