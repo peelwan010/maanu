@@ -38,7 +38,7 @@ const questions = [
     {
       question: "How much do you love me?",
       options: ["0", "0.15", "0.78", "♾️+1"],
-      correctAnswer: 1
+      correctAnswer: 3
     },
     {
       question: "Check and move on to next level!?",
