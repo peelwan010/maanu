@@ -22,7 +22,7 @@ const questions = [
     },
     {
       question: "When was our very FIRST kiss?",
-      options: ["18 February 2021", "11 February 2021", "15 February 2021", "16 February 2021"],
+      options: ["18 February 2022", "11 February 2022", "15 February 2022", "16 February 2022"],
       correctAnswer: 0
     },
     {
